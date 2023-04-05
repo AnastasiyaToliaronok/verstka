@@ -1,0 +1,33 @@
+.Header-link:hover {
+    color: $ColorHover;
+}
+
+.Banner-button:hover {
+    background: none;
+    border: 1px solid white;
+
+}
+
+.Text-block-2-5:hover {
+    background: linear-gradient(to right, $ColorBlue, $ColorHover);
+}
+
+.Block-3-linc:hover {
+    background-color: white;
+    color: black;
+}
+
+.Block-7-div-text-h:hover {
+    color: $ColorHover;
+}
+
+.Block-7-img:hover {
+    width: 250px;
+    height: auto;
+    text-align: center;
+    transform: scale(0.9);
+}
+
+.lists:hover {
+    color: $ColorBlue;
+}

@@ -1,0 +1,34 @@
+.Header-block {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    box-shadow: 0 8px 50px 1px rgb(198, 170, 244);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.Header-img {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+.Header-div {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    justify-self: center;
+    align-self: center;
+}
+
+.Header-link {
+    @include TextStyle (17px, 600, black);
+    font-family: sans-serif;
+    line-height: 1.625em;
+    text-decoration: none;
+}

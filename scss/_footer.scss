@@ -1,0 +1,135 @@
+.Footer-block {
+    background-color: #222222;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.Footer-block-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+    padding-top: 100px;
+}
+
+.Footer-lists-h {
+    @include TextStyle (22px, 700, white);
+    line-height: 1.2em;
+}
+
+.Footer-lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.lists {
+    @include TextStyle (16px, 300, white);
+    line-height: 1.625em;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.Footer-p {
+    @include TextStyle (16px, 300, white);
+    line-height: 1.625em;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.Footer-form {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #fff;
+    background: #fff;
+    border-radius: 20px;
+    color: #777;
+    @include TextStyle (18px, 300, $ColorGrays);
+}
+
+.Footer-button {
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background: linear-gradient(to right, $ColorBlue, $ColorHover);
+    @include TextStyle (14px, 600, white);
+}
+
+.Footer-form-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-div-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.footer-img-grid-1 {
+    grid-area: 1/1/2/2;
+}
+
+.footer-img-grid-2 {
+    grid-area: 1/2/2/3;
+}
+
+.footer-img-grid-3 {
+    grid-area: 1/3/2/4;
+}
+
+.footer-img-grid-4 {
+    grid-area: 1/4/2/5;
+}
+
+.footer-img-grid-5 {
+    grid-area: 2/1/3/2;
+}
+
+.footer-img-grid-6 {
+    grid-area: 2/2/3/3;
+}
+
+.footer-img-grid-7 {
+    grid-area: 2/3/3/4;
+}
+
+.footer-img-grid-8 {
+    grid-area: 2/4/3/5;
+}
+
+.Footer-link-p {
+    text-decoration: none;
+    @include TextStyle (16px, 300, $ColorBlue);
+}
+
+.Footer-img-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.Footer-div-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+}
